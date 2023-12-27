@@ -1,7 +1,7 @@
 import React from "react";
 
 const Skills = () => {
-  const skillsData1 = [
+  const allSkillsData = [
     {
       title: "Web Development",
       skills: [
@@ -17,6 +17,7 @@ const Skills = () => {
         "Azure",
       ],
     },
+
     {
       title: "Generative AI",
       skills: [
@@ -32,9 +33,6 @@ const Skills = () => {
         "Chat Bots",
       ],
     },
-  ];
-
-  const skillsData2 = [
     {
       title: "Blockchain",
       skills: [
@@ -67,38 +65,22 @@ const Skills = () => {
     <section id="skills">
       <p className="section__text__p1">Explore My</p>
       <h1 className="title">Technical Skills</h1>
-      <div className="skills-details-container">
-        <div className="about-containers">
-          {skillsData1.map((category, index) => (
-            <div key={index} className="details-container">
-              <h2 className="skills-sub-title">{category.title}</h2>
-              <div className="article-container">
-                {category.skills.map((skill, idx) => (
-                  <article key={idx}>
-                    <div>
-                      <h6 className="underline-on-hover">{skill}</h6>
-                    </div>
-                  </article>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
 
-      <div className="skills-details-container">
-        <div className="about-containers">
-          {skillsData2.map((category, index) => (
-            <div key={index} className="details-container">
-              <h2 className="skills-sub-title">{category.title}</h2>
-              <div className="article-container">
-                {category.skills.map((skill, idx) => (
-                  <article key={idx}>
-                    <div>
-                      <h6 className="underline-on-hover">{skill}</h6>
-                    </div>
-                  </article>
-                ))}
+      <div className="container">
+        <div className="row justify-content-center d-flex">
+          {allSkillsData.map((category, index) => (
+            <div key={index} className="col-lg-6">
+              <div className="details-container">
+                <h2 className="skills-sub-title">{category.title}</h2>
+                <div className="article-container">
+                  {category.skills.map((skill, idx) => (
+                    <article key={idx}>
+                      <div>
+                        <h6 className="underline-on-hover">{skill}</h6>
+                      </div>
+                    </article>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

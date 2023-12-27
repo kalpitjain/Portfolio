@@ -27,7 +27,7 @@ const Profile = () => {
 
         <h1 className="title">Kalpit Jain</h1>
 
-        <p className="section__text__p2">
+        <div className="section__text__p2">
           <Typewriter
             options={{
               strings: textSequence,
@@ -37,7 +37,7 @@ const Profile = () => {
               deleteSpeed: 20,
             }}
           />
-        </p>
+        </div>
 
         <div className="profile-button-container">
           <button
