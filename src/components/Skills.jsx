@@ -71,7 +71,9 @@ const Skills = () => {
           {allSkillsData.map((category, index) => (
             <div key={index} className="col-lg-6">
               <div className="details-container">
-                <h2 className="skills-sub-title">{category.title}</h2>
+                <h2 className="skills-sub-title underline-on-hover">
+                  {category.title}
+                </h2>
                 <div className="article-container">
                   {category.skills.map((skill, idx) => (
                     <article key={idx}>

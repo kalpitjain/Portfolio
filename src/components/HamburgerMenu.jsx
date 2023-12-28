@@ -35,22 +35,35 @@ const HamburgerMenu = () => {
         </div>
         <div className={`menu-links ${isMenuOpen ? "open" : ""}`}>
           <li>
-            <a href="#about" onClick={() => handleNavLinkClick("about")}>
+            <a
+              className="nav-link-about"
+              href="#about"
+              onClick={() => handleNavLinkClick("about")}
+            >
               About
             </a>
           </li>
           <li>
-            <a href="#skills" onClick={() => handleNavLinkClick("skills")}>
+            <a
+              className="nav-link-skills"
+              href="#skills"
+              onClick={() => handleNavLinkClick("skills")}
+            >
               Skills
             </a>
           </li>
           <li>
-            <a href="#projects" onClick={() => handleNavLinkClick("projects")}>
+            <a
+              className="nav-link-projects"
+              href="#projects"
+              onClick={() => handleNavLinkClick("projects")}
+            >
               Projects
             </a>
           </li>
           <li>
             <a
+              className="nav-link-achievements"
               href="#achievements"
               onClick={() => handleNavLinkClick("achievements")}
             >
@@ -58,7 +71,11 @@ const HamburgerMenu = () => {
             </a>
           </li>
           <li>
-            <a href="#contact" onClick={() => handleNavLinkClick("contact")}>
+            <a
+              className="nav-link-contact"
+              href="#contact"
+              onClick={() => handleNavLinkClick("contact")}
+            >
               Contact
             </a>
           </li>

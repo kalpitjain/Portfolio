@@ -20,31 +20,31 @@ const Projects = () => {
               index={0}
               name={"Zenoway"}
               image={"./assets/zenoway.png"}
-              github={"google.com"}
-              video={"youtube.com"}
-              website={"zenoway.com"}
+              github={"https://github.com/kalpitjain/Zenoway-Web3Builders"}
+              video={"https://www.youtube.com/watch?v=3MGsaFB9p8A"}
+              website={"https://zenoway-hackathon-39ec06.spheron.app"}
             />
           </div>
           <div className="carousel-item">
             <Card
-              index={0}
+              index={1}
+              name={"Face Web"}
+              image={"./assets/faceweb.png"}
+              github={"https://github.com/kalpitjain/face-web"}
+              video={"https://www.youtube.com/watch?v=R5uP1v-v__8"}
+              website={"https://face-web-app.vercel.app/"}
+            />
+          </div>
+          {/* <div className="carousel-item">
+            <Card
+              index={2}
               name={"Zenoway"}
               image={"./assets/zenoway.png"}
               github={"google.com"}
               video={"youtube.com"}
               website={"zenoway.com"}
             />
-          </div>
-          <div className="carousel-item">
-            <Card
-              index={0}
-              name={"Zenoway"}
-              image={"./assets/zenoway.png"}
-              github={"google.com"}
-              video={"youtube.com"}
-              website={"zenoway.com"}
-            />
-          </div>
+          </div> */}
         </div>
         <button
           className="carousel-control-prev"

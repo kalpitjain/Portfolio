@@ -29,7 +29,9 @@ const Achievements = () => {
           {achievementsData.map((achievement, index) => (
             <div key={index} className="col-md-6">
               <div className="details-container">
-                <h4 className="skills-sub-title">{achievement.title}</h4>
+                <h4 className="skills-sub-title underline-on-hover">
+                  {achievement.title}
+                </h4>
                 <div className="article-container">
                   <img
                     src={achievement.imageSrc}
