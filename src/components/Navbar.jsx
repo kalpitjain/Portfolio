@@ -23,7 +23,7 @@ const Navbar = () => {
         Kalpit Jain
       </div>
 
-      <div>
+      <div className="nav-links-holder">
         <ul className="nav-links">
           <li>
             <a

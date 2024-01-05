@@ -1,5 +1,5 @@
 /* GENERAL */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -37,16 +37,23 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  font-weight: 200;
 }
 
 nav a {
-  color: #ffffff;
+  color: #dcdada;
   text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
   text-underline-offset: 0.75rem;
+}
+
+.nav-links-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -84,7 +91,7 @@ nav a:hover {
 .hamburger-icon span {
   width: 100%;
   height: 2px;
-  background-color: #fff;
+  background-color: #dcdada;
   transition: all 0.3s ease-in-out;
 }
 
@@ -105,7 +112,7 @@ nav a:hover {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: #dcdada;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
@@ -143,13 +150,13 @@ nav a:hover {
 }
 
 .nav-link-about:hover {
-  color: #fff654;
-  text-decoration-color: #fff654;
+  color: #efff5c;
+  text-decoration-color: #efff5c;
 }
 
 .nav-link-skills:hover {
-  color: #55ffeb;
-  text-decoration-color: #55ffeb;
+  color: #82fff0;
+  text-decoration-color: #82fff0;
 }
 
 .nav-link-projects:hover {
@@ -158,8 +165,8 @@ nav a:hover {
 }
 
 .nav-link-achievements:hover {
-  color: #ff973d;
-  text-decoration-color: #ff973d;
+  color: #ff9b3d;
+  text-decoration-color: #ff9b3d;
 }
 
 .nav-link-contact:hover {
@@ -172,7 +179,7 @@ section {
   padding-top: 4vh;
   margin: 0 10rem;
   min-height: fit-content;
-  color: #ffffff;
+  color: #dcdada;
   box-sizing: border-box;
 }
 
@@ -302,7 +309,7 @@ section {
 
 #about .title,
 strong {
-  color: #fff654;
+  color: #efff5c;
 }
 
 #about .icon {
@@ -349,7 +356,7 @@ strong {
 }
 
 #about .details-container:hover {
-  border: #fff654 0.1rem solid;
+  border: #efff5c 0.1rem solid;
 }
 
 /* SKILLS SECTION */
@@ -363,22 +370,22 @@ strong {
 }
 
 #skills .title {
-  color: #55ffeb;
+  color: #82fff0;
   margin-bottom: 2rem;
 }
 
 #skills .details-container {
-  border: #55ffeb 0.1rem solid;
+  border: #82fff0 0.1rem solid;
   margin: 1rem;
 }
 
 #skills .details-container:hover {
-  border: #55ffeb 0.1rem solid;
+  border: #82fff0 0.1rem solid;
 }
 
 #skills h6:hover,
 h2:hover {
-  color: #55ffeb;
+  color: #82fff0;
   cursor: default;
 }
 
@@ -387,11 +394,11 @@ h2:hover {
   margin-left: auto;
   margin-right: auto;
   cursor: default;
-  color: #55ffeb;
+  color: #82fff0;
 }
 
 .skills-sub-title {
-  color: #ffffff;
+  color: #dcdada;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -512,7 +519,7 @@ article .icon {
 }
 
 #achievements h1 {
-  color: #ff973d;
+  color: #ff9b3d;
   margin-bottom: 4rem;
 }
 
@@ -524,7 +531,7 @@ article .icon {
 }
 
 #achievements h4:hover {
-  color: #ff973d;
+  color: #ff9b3d;
 }
 
 .achievements-container {
@@ -532,12 +539,12 @@ article .icon {
 }
 
 #achievements .details-container {
-  border: #ff973d 0.1rem solid;
+  border: #ffac5f 0.1rem solid;
   margin: 1rem;
 }
 
 #achievements .details-container:hover {
-  border: #ff973d 0.1rem solid;
+  border: #ff9553 0.1rem solid;
   margin: 1rem;
 }
 
